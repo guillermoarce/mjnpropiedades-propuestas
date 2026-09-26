@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="robots" content="noindex, nofollow"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>mjn propiedades · Propuestas</title>
+<style>
+  :root { --bg:#f6f3ee; --fg:#1d1d1b; --muted:#6b675f; --card:#fff; --line:#e3ddd3; --accent:#b8553a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161614; --fg:#f1ede6; --muted:#a39d92; --card:#20201d; --line:#34322d; --accent:#e58a6d; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:56px 16px 64px; }
+  h1 { font-size:clamp(28px,5vw,40px); line-height:1.15; margin:0 0 12px; letter-spacing:-.01em; }
+  .lead { color:var(--muted); max-width:62ch; margin:0 0 36px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+  a.card { display:block; padding:28px; background:var(--card); border:1px solid var(--line); border-radius:14px; color:inherit; text-decoration:none; transition:border-color .15s, transform .15s; }
+  a.card:hover { border-color:var(--accent); transform:translateY(-2px); }
+  .tag { font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); font-weight:600; }
+  .card h2 { margin:6px 0 8px; font-size:24px; }
+  .card p { margin:0; color:var(--muted); }
+  .go { display:inline-block; margin-top:18px; font-weight:600; }
+  h3 { margin:48px 0 10px; font-size:18px; }
+  ol { margin:0; padding-left:20px; color:var(--muted); }
+  li { margin:4px 0; }
+  .note { margin-top:40px; font-size:14px; color:var(--muted); border-top:1px solid var(--line); padding-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>mjn propiedades: dos propuestas de sitio web</h1>
+  <p class="lead">Recorre las dos propuestas en el computador y en el celular, y cuéntanos cuál prefieres y por qué. No hay respuestas correctas: nos interesa tu impresión como cliente que busca, vende o arrienda una propiedad.</p>
+
+  <div class="grid">
+    <a class="card" href="propuesta-a/">
+      <span class="tag">Propuesta A</span>
+      <h2>Ver sitio A</h2>
+      <p>Inicio, catálogo, ficha de propiedad, publicar propiedad, nosotros y contacto.</p>
+      <span class="go">Abrir →</span>
+    </a>
+    <a class="card" href="propuesta-b/">
+      <span class="tag">Propuesta B</span>
+      <h2>Ver sitio B</h2>
+      <p>Inicio, catálogo, ficha de propiedad, publicar propiedad, nosotros y contacto.</p>
+      <span class="go">Abrir →</span>
+    </a>
+  </div>
+
+  <h3>Qué mirar</h3>
+  <ol>
+    <li>Primera impresión: ¿transmite confianza y cercanía?</li>
+    <li>Buscar una propiedad: ¿es fácil filtrar y encontrar lo que buscas?</li>
+    <li>Ficha de propiedad: ¿tiene la información y las fotos que esperas?</li>
+    <li>Contactar o publicar tu propiedad: ¿queda claro cómo hacerlo?</li>
+    <li>En el celular: ¿se ve y se usa bien?</li>
+  </ol>
+
+  <p class="note">Sitios demostrativos: las propiedades, precios, fotos y datos de contacto son ficticios. Los formularios no envían datos y los botones de WhatsApp apuntan a un número de ejemplo.</p>
+</main>
+</body>
+</html>
